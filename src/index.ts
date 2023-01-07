@@ -4,6 +4,7 @@ import {Request, Response} from "express"
 import {AppDataSource}     from "./data-source"
 import {Routes}            from "./routes"
 import {User}              from "./entity/User";
+import {config}            from "./config";
 
 const handleErrors = (err, req, res, next) => {
     res.status(err.statusCode || 500).send({field: err.field, message: err.message});
@@ -29,6 +30,6 @@ AppDataSource.initialize().then(async () => {
 
     app.use(handleErrors);
 
-    app.listen(3000)
+    app.listen(config.PORT);
 
 }).catch(error => console.log(error))
