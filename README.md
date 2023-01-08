@@ -32,13 +32,25 @@ This project is not a demonstration of optimal solutions and is aimed at studyin
 ...
 
 ---
+### What's interesting
+
+* using TypeORM CLI to make a project basis entities
+* using Morgan as middleware for logs
+* applying Express-validator to describe simple validation on restfull entities
+
+---
+* использование TypeORM CLI для создания базовых сущностей
+* использование Morgan как middleware для вывода логов
+* применение Express-validator на уровне маршрутов рест апи
+---
 
 ### Installing
 
 1. clone
 2. npm install
 3. docker compose up -d
-4. npm run start
+4. creating .env in the root category (see .env_example)
+5. npm run start
 
 ---
 
