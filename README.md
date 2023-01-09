@@ -54,4 +54,4 @@ This project is not a demonstration of optimal solutions and is aimed at studyin
 
 ---
 
-thanks [Vlad Minin](https://www.youtube.com/@KrisFoster1) for lessons and inspiration
+thanks [Kris Foster](https://www.youtube.com/@KrisFoster1) for lessons and inspiration
