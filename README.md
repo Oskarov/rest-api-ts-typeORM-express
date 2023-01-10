@@ -37,11 +37,13 @@ This project is not a demonstration of optimal solutions and is aimed at studyin
 * using TypeORM CLI to make a project basis entities
 * using Morgan as middleware for logs
 * applying Express-validator to describe simple validation on restfull entities
+* acceptance test with Jest and Supertest
 
 ---
 * использование TypeORM CLI для создания базовых сущностей
 * использование Morgan как middleware для вывода логов
 * применение Express-validator на уровне маршрутов рест апи
+* приёмочное тестирование с Jest и Supertest
 ---
 
 ### Installing
