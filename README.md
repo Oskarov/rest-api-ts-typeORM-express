@@ -29,7 +29,9 @@ This project is not a demonstration of optimal solutions and is aimed at studyin
 
 ### Description
 
-...
+A small project that allows you to evaluate the possibilities TypeORM out of the box + dig a little deeper.
+
+Небольшой проект позволяющий оценить возможности TypeORM из коробки + немного копаем вглубь.
 
 ---
 ### What's interesting
